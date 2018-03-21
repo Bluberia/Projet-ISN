@@ -1,0 +1,41 @@
+void AIDE() {
+  PImage droite;
+  size(1500, 800);
+  background(fond5);
+  textAlign(CENTER, CENTER);
+  textFont(createFont("Edwardian Script ITC", 150 ));
+  fill(5, 0, 0);
+  text("Univers games", 750, 100);
+  textFont(createFont("Arial", 30));
+  fill(5, 0, 0);
+  text("AIDE", 1450, 25);
+  fill(5, 0, 0);
+  text("Avancer vers la gauche", 348, 405);
+  fill(5, 0, 0);
+  text("Avancer vers la droite", 1142, 405);
+  fill(5, 0, 0);
+  text("Sauter", 750, 550);
+  fill(5, 0, 0);
+  text("Pause", 745, 405);
+  fill(5, 0, 0);
+  text("Eviter les ennemis", 480, 600);
+  noFill();
+  rect(520, 675, 460, 65, 7);
+  fill(5, 0, 0);
+  text("Retour", 750, 705);
+  droite = loadImage("gauche.jpg");
+  image(droite, 300, 290, 90, 90);
+  droite = loadImage("droite.jpg");
+  image(droite, 1100, 290, 90, 90);
+  droite = loadImage("espace.jpg");
+  image(droite, 550, 460, 400, 70);
+  droite = loadImage("p.jpg");
+  image(droite, 700, 290, 85, 85);
+  droite = loadImage("danger.png");
+  image(droite, 260, 550, 85, 85);
+  droite = loadImage("crabe.png");
+  image(droite, 615, 580, 65, 55);
+  droite = loadImage("pigeon.png");
+  image(droite, 680, 580, 65, 55);
+}
+
